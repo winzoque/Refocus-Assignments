@@ -1,12 +1,12 @@
 Short Introduction
-    I am very interested in coding and I would like to master it.
+    -I am very interested in coding and I would like to master it.
 
 Hobbies
-    Watching movies
-    Playing mobile games
+    -Watching movies
+    -Playing mobile games
 
 Goals
-    To improve in coding and coding logics.
+    -To improve in coding and coding logics.
 
 Reason
-    To shift my career into the global trend.
+    -To shift my career into the global trend.
