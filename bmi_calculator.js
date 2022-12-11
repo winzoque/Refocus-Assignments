@@ -16,7 +16,7 @@ function bmiCalculator(weight, height){
 var yourBMI = bmiCalculator(65, 1.651); //Healthy Weight
 var yourBMI = bmiCalculator(45, 1.651); //Underweight
 var yourBMI = bmiCalculator(65, 1.5);   //Overweight
-var yourBMI = bmiCalculator(65, 1.4);   //Healthy Weight
+var yourBMI = bmiCalculator(65, 1.4);   //Obesity
 
 //BMI               Weight Status
 //================================
