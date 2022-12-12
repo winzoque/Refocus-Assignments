@@ -1,5 +1,5 @@
 function bmiCalculator(weight, height){
-    let bmi = (weight/Math.pow(height, 2)).toFixed(2);
+    let bmi = (weight/Math.pow(height, 2));
     console.log("Your BMI is: " + bmi);
     if (bmi < 18.5) {
         console.log("You are Underweight\n");
@@ -12,17 +12,18 @@ function bmiCalculator(weight, height){
     }
     return bmi;
 }
-//weight(Kg) & height(m)
-var yourBMI_HW = bmiCalculator(65, 1.651); //Healthy Weight
-var yourBMI_UW = bmiCalculator(45, 1.651); //Underweight
-var yourBMI_OW = bmiCalculator(65, 1.5);   //Overweight
-var yourBMI_OB = bmiCalculator(65, 1.4);   //Obesity
 
+//weight(Kg) & height(m)
+var yourBMI = bmiCalculator(65, 1.651); //Healthy Weight
+var yourBMI = bmiCalculator(45, 1.651); //Underweight
+var yourBMI = bmiCalculator(65, 1.5);   //Overweight
+var yourBMI = bmiCalculator(65, 1.4);   //Obesity
+
+module.exports = bmiCalculator;
+//FOR MANUAL TESTING
 //BMI               Weight Status
 //================================
 //Below 18.5	    Underweight
 //18.5 – 24.9	    Healthy Weight
 //25.0 – 29.9	    Overweight
 //30.0 and Above	Obese
-
-module.exports = bmiCalculator;
